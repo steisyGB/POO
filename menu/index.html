@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>+</head>
+<body>
+
+    <div class="box1">
+        <div class="orden" align="center">
+
+            <h2>Realiza tu pedido</h2>
+            
+            <table border="1">
+                <tr>
+                    <th>comida</th>
+                </tr>
+
+                <tr>
+                    <td>Hamburguesas con papas</td>
+                    
+                </tr>
+
+                <tr>
+                    <td>Tacos de Birria</td>
+                    
+                </tr>
+
+                <tr>
+                    <td>Nachos</td>
+                   
+                </tr>
+
+            </table>
+
+            <br> <br>
+
+            <table border="1">
+                <tr>
+                    <th>bebida</th>
+                </tr>
+
+                <tr>
+                    <td>Jugo del Valle</td>
+                </tr>
+
+                <tr>
+                    
+                    <td>Power</td>
+                </tr>
+                <tr>
+                    
+                    <td>Coca-Cola</td>
+                </tr>
+            </table>
+            <br>
+
+            <label for="text">cliente: <input type="text" id="nombre"></label>
+            <br>
+            <br>
+
+            <label for="text">comida: </label>
+
+            <select id="opcionesC">
+                <option>Hamburguesas con papas</option>
+                <option>Tacos de Birria</option>
+                <option>Nachos</option>
+            </select>
+
+            <input type="number" id="cantidadC" value="0" min="0" max="100">
+            <br>
+            <br>
+        
+            <label for="text">bebidas: </label>
+            <select id="opcionesB">
+                <option>Jugo del Valle</option>
+                <option>Power</option>
+                <option>Cola-Cola</option>
+            </select>
+            <input type="number" id="cantidadB" value="0" min="0" max="100">
+
+            <br>
+            <br>
+
+            <button id="ordenar">Ordenar</button>
+            
+            
+        </div>
+
+        <div class="cocina">
+            <h2>Estado del pedido realizado</h2>
+        </div>
+
+    </div>
+  
+    <br>
+    <br>
+    <br>
+        
+    <div class="box1">
+        <div class="estado">
+            <h2>Estado de entrega</h2>
+            <button id="Listo">Entrega</button>
+        </div>
+    </div>   
+        
+    
+
+    <script src="main.js"></script>
+</body>
+
+</html>

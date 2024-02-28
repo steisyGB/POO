@@ -1,0 +1,30 @@
+body{
+    background-color: rgb(185, 221, 255);
+}
+.box1{
+    display: flex;
+    justify-content: space-around;
+    font-size: 20px;
+}
+
+.orden{
+    
+    width: 35%;
+    margin-left: 10px;
+    background-image: url('orden.jpg');
+    
+
+}
+.cocina{
+    text-align: center;
+    background-color: rgb(179, 18, 219);
+    width: 35%;
+    background-image: url('orden.jpg');
+}
+
+.estado{
+    text-align: center;
+    background-color: rgb(212, 213, 243);
+    width: 35%;
+    background-image: url('orden.jpg');
+}

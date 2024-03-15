@@ -1,0 +1,56 @@
+body{
+    background-color: #eac1e7;
+}
+.box{
+width: 400px;
+margin:  50px auto;
+padding: 20px;
+border: 1px solid #ccc;
+border-radius: 10px;
+box-shadow: 0 0 40px #fdfdfd 
+}
+.form-box {
+    text-align: left;
+}
+
+.b{
+    margin-top: 40px;
+    width: 50%;
+}
+
+
+#usuario {
+    width: 400px;
+margin:  50px auto;
+padding: 20px;
+border: 1px solid #ccc;
+border-radius: 10px;
+box-shadow: 0 0 40px #fdfdfd 
+}
+.form-box {
+    text-align: left;
+}
+
+
+.body{
+    background-color: #86A8CF;
+}
+
+.negro {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.blanco {
+    color: rgb(255, 255, 255);
+}
+
+.para {
+    margin-bottom: 5px;
+}
+
+strong {
+    font-weight: bold;
+}
+
+

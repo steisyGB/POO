@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Perfil</title>
+</head>
+<body class="body">
+    
+    <div id="usuario">
+    
+    <script>
+        const datosUsuario = JSON.parse(localStorage.getItem('datosUsuario'));
+
+        const perfil = document.getElementById('usuario');
+        perfil.innerHTML = `
+        <p class="blanco"><strong>Nombre: </strong>${datosUsuario.usuario}</p>
+        <p class="negro"><strong>Fecha de Nacimiento: </strong>${datosUsuario.nacimiento}</p>
+        <p class="blanco"><strong>Genero: </strong>${datosUsuario.genero}</p>
+        <p class="negro"><strong>Departamento: </strong>${datosUsuario.departamento}</p>
+        <p class="blanco"><strong>Ciudad: </strong>${datosUsuario.ciudad}</p>
+        <p class="negro"><strong>Numero de Telefono: </strong>${datosUsuario.telefono}</p>
+        <p class="blanco"><strong>Descripcion: </strong>${datosUsuario.descripcion}</p>`;
+
+    </script>
+    </div>
+
+    <!-- class negro y class blanco es para darle color a las letras en css -->
+    <!-- strong hace resaltar las letras -->
+    <!-- el <div> con el id "usuario" se está utilizando como un contenedor para mostrar información del usuario.>
+    <!-- const datosUsuario = JSON.parse(localStorage.getItem('datosUsuario')); se utiliza para recuperar datos del almacenamiento local del navegador y asignarlos a la variable datosUsuario>
+    
+</body>
+</html>
